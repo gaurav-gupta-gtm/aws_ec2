@@ -23,3 +23,6 @@ tags:
 
 dependencies: {}
 
+repository: "https://github.com/gaurav-gupta-gtm/aws_ec2"
+homepage: "https://github.com/gaurav-gupta-gtm/aws_ec2"
+documentation: "https://github.com/gaurav-gupta-gtm/aws_ec2#readme"
