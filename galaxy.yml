@@ -1,0 +1,25 @@
+namespace: gaurav_gupta_gtm
+
+name: aws_ec2
+
+version: 1.0.0
+
+readme: README.md
+
+authors:
+- Gaurav Gupta
+
+
+description:  This role helps in creating key-pair, creating security group and launch EC2 instance over AWS.
+
+license:
+- GPL-2.0-or-later
+
+tags:
+- ec2
+- aws
+- cloud
+
+
+dependencies: {}
+
