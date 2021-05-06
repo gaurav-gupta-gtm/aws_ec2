@@ -58,3 +58,5 @@ keyed_groups:
 hostnames:
   - ip-address
 ```
+
+Galaxy Link: https://galaxy.ansible.com/gaurav_gupta_gtm/aws_ec2
