@@ -31,6 +31,19 @@ Example
 $ ansible-galaxy collection install gaurav-gupta-gtm.awc_ec2
 ```
 
+### Var file
+
+```yaml
+key_dest: "/root/.ssh/key.pem"
+region: "ap-south-1"
+image_id: "ami-0ebc1ac48dfd14136"
+count: "3"
+tag_name: "from-ansible"
+port: "80"
+subnet_id: ""
+instace_type: "t2.micro"
+```
+
 ### playbook.yml example
 
 ```yaml
