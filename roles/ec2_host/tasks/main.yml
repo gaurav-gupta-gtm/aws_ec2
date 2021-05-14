@@ -31,12 +31,12 @@
 - name: Launch EC2 Instance
   ec2:
       key_name: mykey
-      instance_type: t2.micro
+      instance_type: "{{ instance_type }}"
       image: "{{ image_id }}"
       wait: yes
       region: "{{ region }}"
       count: "{{ count }}"
-      vpc_subnet_id: subnet-86bed5ca
+      vpc_subnet_id: "{{ subnet_id }}"
       group_id: "{{ sg_ansible.group_id }}"
       assign_public_ip: yes
       state: present
@@ -46,4 +46,4 @@
 - name: Refresh Inventory File
   meta: refresh_inventory
 - pause:
-    minutes: 2
+    minutes: 1
